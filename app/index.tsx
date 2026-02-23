@@ -41,7 +41,7 @@ export default function ResumeScreen() {
       {/* ── PROFILE ── */}
       <View style={s.profileRow}>
         <Image
-          source={require('../assets/images/profileImage.png')} 
+          source={require('../assets/images/profileImage.png')}
           style={s.avatar}
           resizeMode="cover"
         />
