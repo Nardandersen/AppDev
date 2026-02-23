@@ -40,11 +40,11 @@ export default function ResumeScreen() {
 
       {/* ── PROFILE ── */}
       <View style={s.profileRow}>
-        <Image
+        {/* <Image
           source={require('../assets/images/profileImage.png')}
           style={s.avatar}
           resizeMode="cover"
-        />
+        /> */}
         <View style={s.profileText}>
           <Text style={s.firstName}>QUINN{'\n'}LYNNARD</Text>
           <Text style={s.lastName}>CASTRO</Text>
